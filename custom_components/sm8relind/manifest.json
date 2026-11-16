@@ -12,7 +12,7 @@
 	],
 	"config_flow": true,
 	"requirements": [
-		"SM8relind>=1.0.0",
+		"SM8relind>=1.0.4",
 		"SMcommonHA>=0.0.2"
 	]
 }
