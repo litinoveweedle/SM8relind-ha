@@ -1,14 +1,15 @@
 {
   "domain": "sm8relind",
-  "name": "Sequent Microsystems Eight Relays Integration",
-  "after_dependencies": [],
+  "name": "Sequent Microsystems Eight Relays Card",
+  "categories": [
+    "diy_makers.boards_hardware"
+  ],
   "codeowners": ["@3lv", "@litinoveweedle"],
   "config_flow": true,
-  "dependencies": [],
   "documentation": "https://github.com/SequentMicrosystems/SM8relind-ha",
   "integration_type": "device",
   "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/SequentMicrosystems/SM8relind-ha",
+  "issue_tracker": "https://github.com/SequentMicrosystems/SM8relind-ha/issues",
   "requirements": ["SM8relind>=1.0.4", "SMcommonHA>=0.0.3"],
   "version": "1.0.0"
 }
